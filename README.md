@@ -13,10 +13,10 @@ This is my solution for this challenge!
 Your challenge is to build out this order summary card component and get it looking as close to the design as possible.
 
 ### Screenshot
-Desktop Previw:
+#### Desktop Previw:
 
 ![Desktop preview (1440px)](./design/Desktop-previw(1440).png)
-Mobile Preview:
+#### Mobile Preview:
 
 <img src="./design/Mobile-preview(375).png" width=375 height=667>
 
@@ -44,6 +44,8 @@ Mobile Preview:
   - [Overview](#overview)
     - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
+      - [Desktop Previw:](#desktop-previw)
+      - [Mobile Preview:](#mobile-preview)
     - [Links](#links)
   - [My process](#my-process)
     - [Build with](#build-with)
