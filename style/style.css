@@ -33,7 +33,7 @@ main {
   overflow: hidden;
   background-color: white;
   text-align: center;
-  box-shadow: 0 4rem 4rem 0rem rgb(0, 0, 0, 0.07);
+  box-shadow: 0 4rem 4rem -1rem rgb(0, 0, 0, 0.07);
   margin: 2.4rem;
 }
 
@@ -93,7 +93,7 @@ button {
   font-weight: 700;
   padding-block: 1.5rem;
   border-radius: 1rem;
-  box-shadow: 0 2rem 2.5rem hsl(245, 75%, 52%, 0.2);
+  box-shadow: 0 3rem 3rem -1rem hsl(245, 75%, 52%, 0.17);
   transition: all 150ms ease-out;
 }
 
