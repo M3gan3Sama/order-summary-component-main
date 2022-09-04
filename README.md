@@ -15,7 +15,7 @@ Your challenge is to build out this order summary card component and get it look
 ### Screenshot
 
 ![Desktop preview (1440px)](./design/Desktop-previw-mine.png)
-![Mobile preview (375px)](design/Mobile-preview(iPhone%20SE).png = 375x667)
+![Mobile preview (375px)](design/Mobile-preview(iPhone%20SE).png =375x667)
 
 ### Links
 
