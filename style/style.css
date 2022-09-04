@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+:root {
+  /* Fonts */
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 62.5%;
+  /* Colors */
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+  max-width: 144rem;
+  min-height: 100vh;
+  font-size: 1.6rem;
+  background-color: var(--pale-blue);
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-inline: auto;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  place-items: center;
+}
+
+main {
+  max-width: 45rem;
+  border-radius: 2rem;
+  overflow: hidden;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 4rem 4rem 0rem rgb(0, 0, 0, 0.07);
+  margin: 2.4rem;
+}
+
+h1,
+h2 {
+  color: var(--dark-blue);
+  font-weight: 900;
+}
+
+h1 {
+  margin-block-end: 1.7rem;
+  font-size: 2.8rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+
+p {
+  color: var(--desaturated-blue);
+}
+
+a {
+  color: var(--bright-blue);
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 150ms ease-out;
+}
+
+a::after {
+  content: "";
+  width: 100%;
+  height: 0.1rem;
+  display: block;
+  background-color: var(--bright-blue);
+  transition: all 150ms ease-out;
+}
+
+a:active {
+  opacity: 0.5;
+}
+
+a:active::after {
+  width: 0;
+}
+
+button {
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+  background-color: var(--bright-blue);
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding-block: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 2rem 2.5rem hsl(245, 75%, 52%, 0.2);
+  transition: all 150ms ease-out;
+}
+
+.payment-btn:active {
+  background-color: hsl(245, 75%, 52%, 0.7);
+  transform: scale(0.98);
+}
+
+.card-text {
+  padding: 4.5rem 4.8rem;
+}
+
+.card-text > p {
+  margin-block-end: 2.1rem;
+  line-height: 2.6rem;
+}
+
+.plan {
+  padding: 2.4rem;
+  background-color: var(--very-pale-blue);
+  border-radius: 1rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-block-end: 3.1rem;
+}
+
+.plan > a {
+  margin-inline-start: auto;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.music-icon > img {
+  width: 100%;
+}
+
+.plan-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.plan-left > p {
+  font-weight: 700;
+}
+.cancel-order-btn {
+  background-color: transparent;
+  padding-block: 0;
+  color: var(--desaturated-blue);
+  width: fit-content;
+  margin-inline: auto;
+  margin-block-start: 3.4rem;
+  font-size: 1.5rem;
+  box-shadow: none;
+}
+
+.cancel-order-btn:active {
+  color: var(--dark-blue);
+  transform: scale(0.98);
+}
+
+footer {
+  margin-block-end: 0.3rem;
+}
+
+footer p,
+footer a {
+  font-size: 1.1rem;
+}
+
+@media (max-width: 375px) {
+  body {
+    background-image: url(../images/pattern-background-mobile.svg);
+  }
+
+  main {
+    max-width: 327px;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  .card-text {
+    padding: 3.2rem 2.5rem;
+  }
+
+  .card-text > p {
+    font-size: 1.5rem;
+    padding-inline: 1.4rem;
+    line-height: 2.5rem;
+  }
+
+  .plan {
+    padding: 1.6rem;
+    margin-block-end: 2.4rem;
+  }
+
+  .plan-left * {
+    font-size: 1.4rem;
+  }
+
+  .cancel-order-btn {
+    margin-block-start: 2.4rem;
+  }
+}
+
+@media (max-width: 320px) {
+  main {
+    margin: 2.4rem 1.2rem;
+  }
+
+  button {
+    font-size: 1.4rem;
+  }
+
+  .cancel-order-btn {
+    font-size: 1.3rem;
+  }
+
+  .card-text > p {
+    font-size: 1.4rem;
+  }
+
+  .plan {
+    gap: 1rem;
+  }
+
+  .plan > a {
+    font-size: 1.3rem;
+  }
+
+  .plan-left * {
+    font-size: 1.3rem;
+  }
+
+  footer p,
+  footer a {
+    font-size: 1rem;
+  }
+}
