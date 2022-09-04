@@ -17,7 +17,7 @@ Desktop Previw:
 ![Desktop preview (1440px)](./design/Desktop-previw(1440).png)
 Mobile Preview:
 ![Mobile preview (375px)](design/Mobile-preview(375).png =375x667)
-<img src="./design/Mobile-preview(375).png" width=375 height=300>
+<img src="./design/Mobile-preview(375).png" width=375 height=667>
 
 ### Links
 
