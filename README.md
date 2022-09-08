@@ -18,7 +18,9 @@ Your challenge is to build out this order summary card component and get it look
 ![Desktop preview (1440px)](./design/Desktop-previw(1440).png)
 #### Mobile Preview:
 
-<img src="./design/Mobile-preview(375).png" width=375 height=667>
+<div text-align="center">
+  <img src="./design/Mobile-preview(375).png" width=375 height=667>
+  </div>
 
 ### Links
 
